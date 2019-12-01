@@ -24,3 +24,9 @@ This is a study project for Udemy Coding Interview Bootcamp course by [Stephen G
 
 - Make sure you have nodejs newer than v8: `node -v`
 - Install Jest: `sudo npm install -g jest`
+
+## HOW to test solution
+
+- Write your solution to the problem into `exercises/<problem_dir>/index.js`
+- Run `jest exercises/<problem_dir>/ --watch`
+- E.g. `jest exercises/palindrome/ --watch`
